@@ -26,3 +26,4 @@ descartes
 esy-osm-pbf
 esy-osmfilter
 rioxarray
+sphinx-reredirects

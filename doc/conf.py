@@ -46,6 +46,7 @@ extensions = [
     # "sphinxcontrib.tikz",
     # "rinoh.frontend.sphinx",
     "sphinx.ext.imgconverter",  # for SVG conversion
+    "sphinx_reredirects",
 ]
 
 numpydoc_show_class_members = False
@@ -124,3 +125,7 @@ man_pages = [
 
 # Example configuration for intersphinx: refer to the Python standard library.
 intersphinx_mapping = {"https://docs.python.org/": None}
+
+redirects = {
+    "*": "https://pypsa-meets-earth.github.io/"
+}
